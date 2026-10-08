@@ -75,7 +75,7 @@
 ---
 
 ### Screenshot Coding Main.php
-![Main.php](img/mainphp.png)
+![Main.php](img/Mainphp.png)
 > **Penjelasan:** File eksekusi utama PHP yang mengimpor `abstraksi.php` menggunakan `require_once`. File ini menjalankan perulangan objek `Movable`, pemanggilan fungsi `isiPenuh()`, iterasi Enum `TipeBahanBakar`, serta pemanggilan trait `log()` dari objek `Mobil` dan `Pesanan`.
 
 ---
