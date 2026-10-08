@@ -84,3 +84,5 @@
 ![Hasil Running PHP](img/hasilrunningphp.png)
 > **Penjelasan Output:** Menampilkan eksekusi program PHP yang berjalan lancar, memproses pengisian bahan bakar, pergerakan sepeda dan mobil, hingga pencetakan log berformat dari trait `Loggable`.
 
+### Keputusan.md
+![alt text](img/Keputusan.png)
