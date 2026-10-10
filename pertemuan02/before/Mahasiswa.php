@@ -3,6 +3,7 @@ declare(strict_types=1);
 
 /**
  * Sesi 2 — enkapsulasi yang menjaga invariant (PHP).
+ * Bandingkan baris demi baris dengan java/Mahasiswa.java.
  */
 class Mahasiswa
 {
@@ -14,6 +15,9 @@ class Mahasiswa
     private const float NILAI_MAX = 100;
 
     /**
+     * Constructor property promotion (PHP 8):
+     * readonly adalah padanan `final` pada atribut Java.
+     *
      * TODO 1: lengkapi daftar parameter — tentukan mana yang readonly.
      */
     public function __construct(
@@ -24,14 +28,10 @@ class Mahasiswa
         private float $nilaiUas,
     ) {
         // TODO 2: tolak NIM yang kosong (setelah di-trim).
-        if (trim($this->nim) === '') {
-            throw new InvalidArgumentException("NIM mahasiswa tidak boleh kosong.");
-        }
+        //         Lemparkan InvalidArgumentException dengan pesan yang jelas.
 
         // TODO 3: tolak setiap komponen nilai di luar rentang 0-100
-        self::pastikanNilaiSah('Tugas', $this->nilaiTugas);
-        self::pastikanNilaiSah('UTS', $this->nilaiUts);
-        self::pastikanNilaiSah('UAS', $this->nilaiUas);
+        //         menggunakan method pembantu di bawah.
     }
 
     /**
@@ -39,36 +39,24 @@ class Mahasiswa
      */
     private static function pastikanNilaiSah(string $namaKomponen, float $nilai): void
     {
-        if ($nilai < self::NILAI_MIN || $nilai > self::NILAI_MAX) {
-            throw new InvalidArgumentException("Nilai {$namaKomponen} harus berada dalam rentang " . self::NILAI_MIN . " hingga " . self::NILAI_MAX . ".");
-        }
+        // TODO
     }
 
     /** TODO 5: hitung nilai akhir memakai konstanta bobot. */
     public function nilaiAkhir(): float
     {
-        return ($this->nilaiTugas * self::BOBOT_TUGAS) + 
-               ($this->nilaiUts * self::BOBOT_UTS) + 
-               ($this->nilaiUas * self::BOBOT_UAS);
+        return 0;   // ganti
     }
 
-    /** TODO 6: kembalikan huruf mutu. */
+    /** TODO 6: kembalikan huruf mutu. Petunjuk: match (true) { ... } */
     public function hurufMutu(): string
     {
-        $na = $this->nilaiAkhir();
-        return match (true) {
-            $na >= 80 => 'A',
-            $na >= 70 => 'B',
-            $na >= 60 => 'C',
-            $na >= 50 => 'D',
-            default   => 'E',
-        };
+        return '?';   // ganti
     }
 
     // TODO 7: sediakan getter seperlunya. JANGAN membuat setNim().
     public function getNim(): string  { return $this->nim; }
     public function getNama(): string { return $this->nama; }
-    // Method nilaiAkhir() berfungsi sebagai getter kalkulasi.
 
     public function __toString(): string
     {
