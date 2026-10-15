@@ -55,7 +55,7 @@
 ![SS Before Main.java](before/img/mainjava.png)
 
 - **After** *(Kondisi akhir / Eksekusi berhasil)*:
-![SS After Main.java](img/mainJava.png)
+![SS After Main.java](img/mainjava.png)
 
 ### Output Java
 **Output Program:**
