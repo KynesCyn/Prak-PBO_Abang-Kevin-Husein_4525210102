@@ -86,7 +86,7 @@
 ![SS Before main.php](before/img/mainphp.png)
 
 - **After** *(Kondisi akhir / Eksekusi berhasil)*:
-![SS After main.php](img/mainPhp.png)
+![SS After main.php](img/mainphp.png)
 
 ### Output PHP
 **Output Program:**
