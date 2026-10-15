@@ -33,7 +33,7 @@
 ![SS Before Jurusan.java](before/img/jurusan.png)
 
 - **After** *(Kondisi akhir / Eksekusi berhasil)*:
-![SS After Jurusan.java](img/Jurusan.png)
+![SS After Jurusan.java](img/jurusan.png)
 
 ### 1.3. File: `PerpustakaanService.java`
 **Penjelasan Kode:**
@@ -44,7 +44,7 @@
 ![SS Before PerpustakaanService.java](before/img/perpustakaanservice.png)
 
 - **After** *(Kondisi akhir / Eksekusi berhasil)*:
-![SS After PerpustakaanService.java](img/PerpustakaanService.png)
+![SS After PerpustakaanService.java](img/perpustakaanservice.png)
 
 ### 1.4. File: `Main.java`
 **Penjelasan Kode:**
@@ -55,7 +55,7 @@
 ![SS Before Main.java](before/img/mainjava.png)
 
 - **After** *(Kondisi akhir / Eksekusi berhasil)*:
-![SS After Main.java](img/MainJava.png)
+![SS After Main.java](img/mainJava.png)
 
 ### Output Java
 **Output Program:**
@@ -75,7 +75,7 @@
 ![SS Before relasi.php](before/img/relasiphp.png)
 
 - **After** *(Kondisi akhir / Eksekusi berhasil)*:
-![SS After relasi.php](img/Relasi.png)
+![SS After relasi.php](img/relasi.png)
 
 ### 2.2. File: `main.php`
 **Penjelasan Kode:**
@@ -86,7 +86,7 @@
 ![SS Before main.php](before/img/mainphp.png)
 
 - **After** *(Kondisi akhir / Eksekusi berhasil)*:
-![SS After main.php](img/MainPhp.png)
+![SS After main.php](img/mainPhp.png)
 
 ### Output PHP
 **Output Program:**
