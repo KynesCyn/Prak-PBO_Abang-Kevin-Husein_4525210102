@@ -7,8 +7,8 @@
 | **PJ**           | Naufal Maulana Saputra                          |
 | **Tema**         | Sewa Kos                                        |
 | **Tanggal**      | 22 Oktober 2026                                 |
-| **Nama**         | Mochammad Jihan Isfalana                        |
-| **NPM**          | 4525210110                                      |
+| **Nama**         | Abang Kevin Husein                        |
+| **NPM**          | 452521010                                      |
 
 ---
 
